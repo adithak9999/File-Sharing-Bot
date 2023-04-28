@@ -1,0 +1,13 @@
+services:
+  # A Docker web service
+  - type: web
+    name: ChishiyaPlus
+    env: docker
+    region: Singapore
+    plan: free
+    envVars:
+      - key: PORT
+        value: 80
+      - key: BOT_TOKEN
+        # value: BOT_TOKEN
+        sync: false
