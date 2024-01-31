@@ -74,6 +74,15 @@ I Guess This Will Be Usefull For Many People.....😇.
 
 The fastest way to deploy the application is to click the **Deploy to Koyeb** button below.
 
+<details><summary> Deploy To Okteto </summary>
+<br>
+<p>
+<a href="https://cloud.okteto.com/deploy?repository=https://github.com/Devil-Botz/Elsa&branch=main">
+  <img src="https://okteto.com/develop-okteto.svg" alt="Develop on Okteto">
+</a>
+</p>
+</details>
+
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/CodeXBotz/File-Sharing-Bot&branch=koyeb&name=filesharingbot)
 
