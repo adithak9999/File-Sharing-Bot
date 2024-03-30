@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", "False") == 'False'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "<details><b>ഞാൻ അഡ്മിൻ പറയുന്നത് മാത്രമേ അനുസരിക്കു.\n\n<summary>വല്ല പണിക്കും പോടോ</summary></b><details>"
+USER_REPLY_TEXT = "<b>ഞാൻ അഡ്മിൻ പറയുന്നത് മാത്രമേ അനുസരിക്കു.\n\n<spoiler>വല്ല പണിക്കും പോടോ</spoiler></b>"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
