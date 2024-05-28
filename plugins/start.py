@@ -93,7 +93,7 @@ async def start_command(client: Client, message: Message):
             InlineKeyboardButton("🗑 Cʟᴏsᴇ", callback_data = "close") 
          ]]) 
         await message.reply_photo(
-            photo = "https://telegra.ph/file/7b35d725d33206120ad59.jpg",
+            photo = "https://telegra.ph/file/1870d4a4c898873266d30.jpg",
             caption = START_MSG.format(
                 first = message.from_user.first_name,
                 last = message.from_user.last_name,
